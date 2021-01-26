@@ -14,11 +14,10 @@ body{
 }
 
 .header .head{
-    width:480px;
-    height:80px;
-    margin-left:580px;
-   
- 
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 .nav{
     width:100%;
@@ -169,7 +168,7 @@ body{
     body{
         width:100%;
         margin:0;
-        background-color: #eee;
+        background-color: #42EADDFF;
         height:700px;
     }
 
@@ -179,9 +178,10 @@ body{
     }
     
     .header .head{
-        width:480px;
-        height:80px;
-        margin-left:0.2em;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
        
      
     }
@@ -218,6 +218,7 @@ body{
         width:100%;
         height:900px;
         margin-bottom: 400px;
+        text-align: center;
       
     }
     .img img{
@@ -250,7 +251,7 @@ body{
     body{
         width:100%;
         margin:0;
-        background-color: #eee;
+        background-color: #5F4B8BFF;
         height:700px;
     }
 
@@ -260,9 +261,96 @@ body{
     }
     
     .header .head{
-        width:480px;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+       
+     
+    }
+    .nav{
+        width:100%;
+        text-align:center;
+        background-color:#124;
+        padding:5px;
+        font-size: 5px;
+       
+    }
+
+    .nav ul a{
+        color:white;
+        /*margin:10px;*/
+        font-size:20px;
+        text-decoration: none;
+        font-family: cursive;
+        display: block;
+    }
+
+    
+
+     #para{
+        width:100%;
+        font-family: cursive;
+        text-align:center;
+
+     }
+     .about_us p{
+         font-size: 20px;
+         padding:10px;
+     }
+     .img{
+        width:100%;
+        height:500px;
+        margin-bottom: 320px;
+        text-align: center;
+      
+    }
+    .img img{
+        width:45%;
+        height:250px;
+        margin:4px;
+        padding:4px 0px 0px 20px;
+        display: inline-block;
+     
+    }
+
+    footer{
+        width:100%;
+        height: 70px;
+        background-color: orange;
+        font-size: 17px;
+        text-align:center;
+        padding:24px;
+        font-family: courier;
+    }
+    
+
+   
+
+
+}
+@media only screen and (min-width:960px) and (max-width:1680px){
+   
+    body{
+        width:100%;
+        margin:0;
+        background-color: #E69A8DFF;
+        height:700px;
+    }
+
+    .header{
+        width:100%;
         height:80px;
-        margin-left:0.2em;
+    }
+    
+    .header .head{
+        /*width:480px;
+        height:80px;
+        margin-left:0.2em;*/
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
        
      
     }
@@ -298,14 +386,15 @@ body{
      .img{
         width:100%;
         height:500px;
-        margin-bottom: 400px;
+        margin-bottom: 100px;
+        text-align: center;
       
     }
     .img img{
-        width:45%;
+        width:30%;
         height:250px;
-        margin:4px;
-        padding:4px 0px 0px 20px;
+        margin:6px;
+        padding:5px 0px 0px 20px;
         display: inline-block;
      
     }
